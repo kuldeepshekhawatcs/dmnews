@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html ng-app="myApp">
+<head>
+<title>DM News</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="ie.css" /><![endif]-->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.cycle.all.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/angularjs/route.js"></script>
+<script type="text/javascript" src="js/angularjs/app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+
+</head>
+<body>
+<!-- BEGIN wrapper -->
+<div id="wrapper">
+  <!-- BEGIN header -->
+  <div id="header">
+    <!-- begin pages -->
+   
+    <!-- begin logo -->
+    <div class="logo">
+      <h1><a href="#">DM News</a></h1>
+      <p>Free CSS Template</p>
+    </div>
+    <!-- end logo -->
+    <!-- begin sponsor -->
+   
+    <!-- end sponsor -->
+    <!-- begin categories -->
+    <ul class="categories">
+      <li><a href="#/red">Indore</a></li>
+      <li><a href="#">Dewas</a></li>
+      <li><a href="#">Ujjain</a></li>
+      <li><a href="#">Bhopal</a></li>
+       </ul>
+    </div>
+	<div ng-view></div>
+	
+  <!--
+  <div id="content">
+    
+    <div id="featured">
+      <div class="post">
+        <h2><a href="#">Top 10 Make Money Online Tips for 2009</a></h2>
+        <p class="details"> JUN 10 2009 | <a href="#">ChiQ Montes</a> | <a href="#">Advertising</a> | <a href="#">3 Comments</a> </p>
+        <div class="thumb"><a href="#"><img src="images/_featured.jpg" alt="" /></a></div>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi quis risus at nisl blandit feugiat. Ut vel orci quis sem dapibus iaculis. Aliquam ut nunc quis nisi tincidunt tincidunt. Pellentesque enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque enim. Misl blandit feugiat. Ut vel orci quis sem dapibus iaculis.</p>
+        <p class="readmore">[ <a href="#">read more</a> ]</p>
+        <p class="tags">TAGS: <a href="#">money</a>, <a href="#">currency</a>, <a href="#">product</a></p>
+        <div class="break"></div>
+      </div>
+      <div class="post">
+        <h2><a href="#">Top 10 Make Money Online Tips for 2009</a></h2>
+        <p class="details"> JUN 10 2009 | <a href="#">ChiQ Montes</a> | <a href="#">Advertising</a> | <a href="#">3 Comments</a> </p>
+        <div class="thumb"><a href="#"><img src="images/_featured.jpg" alt="" /></a></div>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi quis risus at nisl blandit feugiat. Ut vel orci quis sem dapibus iaculis. Aliquam ut nunc quis nisi tincidunt tincidunt. Pellentesque enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque enim. Misl blandit feugiat. Ut vel orci quis sem dapibus iaculis.</p>
+        <p class="readmore">[ <a href="#">read more</a> ]</p>
+        <p class="tags">TAGS: <a href="#">money</a>, <a href="#">currency</a>, <a href="#">product</a></p>
+        <div class="break"></div>
+      </div>
+    </div>
+    
+    
+    <div class="recent">
+    
+      <div class="o post"> <a href="#"><img src="images/_thumb.jpg" alt="" /></a>
+        <h2><a href="#">Special Twitter Icons for Sale</a></h2>
+        <p>Ut vel orci quis sem dapibus iaculis. Aliquam ut nunc quis nisi tincidunt tincidunt. Pellentesque enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque enim. Misl blandit feugiat. Ut vel orci quis sem dapibus iaculis.</p>
+        <p class="readmore">[ <a href="#">read more</a> ]</p>
+        <div class="break"></div>
+      </div>
+    
+	<div class="e post"> <a href="#"><img src="images/_thumb.jpg" alt="" /></a>
+        <h2><a href="#">Special Twitter Icons for Sale</a></h2>
+        <p>Ut vel orci quis sem dapibus iaculis. Aliquam ut nunc quis nisi tincidunt tincidunt. Pellentesque enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque enim. Misl blandit feugiat. Ut vel orci quis sem dapibus iaculis.</p>
+        <p class="readmore">[ <a href="#">read more</a> ]</p>
+        <div class="break"></div>
+      </div>
+
+
+      <div class="o post"> <a href="#"><img src="images/_thumb.jpg" alt="" /></a>
+        <h2><a href="#">Special Twitter Icons for Sale</a></h2>
+        <p>Ut vel orci quis sem dapibus iaculis. Aliquam ut nunc quis nisi tincidunt tincidunt. Pellentesque enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque enim. Misl blandit feugiat. Ut vel orci quis sem dapibus iaculis.</p>
+        <p class="readmore">[ <a href="#">read more</a> ]</p>
+        <div class="break"></div>
+      </div>
+
+      <div class="e post"> <a href="#"><img src="images/_thumb.jpg" alt="" /></a>
+        <h2><a href="#">Special Twitter Icons for Sale</a></h2>
+        <p>Ut vel orci quis sem dapibus iaculis. Aliquam ut nunc quis nisi tincidunt tincidunt. Pellentesque enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque enim. Misl blandit feugiat. Ut vel orci quis sem dapibus iaculis.</p>
+        <p class="readmore">[ <a href="#">read more</a> ]</p>
+        <div class="break"></div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div id="sidebar">
+
+    <div class="box">
+      <p class="sponsors"> <a href="#"><img src="images/ad125x125.jpg" alt="" /></a> <a href="#"><img src="images/ad125x125.jpg" alt="" /></a> </p>
+      <ul class="bookmarks">
+        <li class="rss"><a href="#">Subscribe via RSS feed</a></li>
+        <li class="twt"><a href="#">Follow me on Twitter</a></li>
+        <li class="fcb"><a href="#">Connect with me on Facebook</a></li>
+        <li class="ldi"><a href="#">Connect with me on LinkedIn</a></li>
+      </ul>
+    </div>
+
+    <div class="box">
+      <h2>Popular Posts</h2>
+      <ul class="popular">
+        <li> <a href="#">Top 10 Ways to Make Money Online</a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse interdum..</p>
+        </li>
+        <li> <a href="#">Top 10 Ways to Make Money Online</a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse interdum..</p>
+        </li>
+        <li> <a href="#">Top 10 Ways to Make Money Online</a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse interdum..</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="box">
+      <h2>Flickr Images</h2>
+      <div class="flickr"> <a href="#"><img src="images/_flickr.jpg" alt="" /></a> <a href="#"><img src="images/_flickr.jpg" alt="" /></a> <a href="#"><img src="images/_flickr.jpg" alt="" /></a> <a href="#"><img src="images/_flickr.jpg" alt="" /></a> <a href="#"><img src="images/_flickr.jpg" alt="" /></a> <a href="#"><img src="images/_flickr.jpg" alt="" /></a> </div>
+    </div>
+
+    <div class="box">
+      <h2>Featured Video</h2>
+      <div class="video"> <img src="images/_video.jpg" alt="" /> </div>
+    </div>
+
+    <div class="box">
+      <h2>Tag Cloud</h2>
+      <div class="tags"> <a href="#">Link</a> </div>
+    </div>
+--> 
+<div id="footer">
+  <p class="l">Copyright &copy; 2009 - <a href="#">Website Name</a> &middot; All Rights Reserved | Template by: <a href="http://www.wpthemedesigner.com/">WordPress Designer</a> | Get More <a href="#">Free CSS Templates</a> </p>
+</div>
+<!-- END footer -->
+</body>
+</html>
